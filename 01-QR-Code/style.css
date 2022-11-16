@@ -1,0 +1,68 @@
+/* @import url(https://fonts.google.com/specimen/Outfit); */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /* background: #999; */
+}
+.card_container {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.img_container {
+  /* background: red; */
+  padding: 1.8rem 1.8rem 0 1.8rem;
+  /* padding: 1.8rem; */
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.img_container img {
+  /* padding: 1.8rem; */
+  border-radius: 1rem;
+  height: 30rem;
+}
+.details_container {
+  padding: 1.8rem;
+  width: 100%;
+}
+
+.qr_heading {
+  font-size: 2.4rem;
+  margin-bottom: 1.3rem;
+}
+
+.qr_detail {
+  font-size: 1.8rem;
+}
+
+.qr_heading,
+.qr_detail {
+  text-align: center;
+}
+
+@media (max-width: 440px) {
+  .card_container {
+    padding: 0 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
